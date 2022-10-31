@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap');
+
+:root {
+  --pink-muda: #fbafc8;
+  --pink-tua: #f778a1;
+  --white: #ffffff;
+  --font-family: 'Source Sans Pro', sans-serif;
+  --regular: 400;
+  --semibold: 600;
+  --black: 900;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: chocolate;
+  font-family: var(--font-family);
+}
+
+.container {
+  height: 100vh;
+  width: 55.38vh;
+  background-color: var(--pink-muda);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu-container {
+  height: 100vh;
+  width: 55.38vh;
+  background-color: var(--pink-muda);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.welcome-banner {
+  height: 15%;
+  width: 100%;
+  background-color: var(--pink-tua);
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-weight: var(--black);
+  font-size: 2cm;
+  text-align: center;
+  margin: 0;
+}
+
+.white {
+  color: var(--white);
+}
+
+.yae-welcome {
+    width: 70%;
+}
+
+.welcome-button {
+    width: 25vh;
+    height: 10vh;
+    background-color: var(--pink-tua);
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: var(--semibold);
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 0px black;
+}
+
+.welcome-button:hover{
+    box-shadow: none;
+    translate: 2px 2px;
+}
+
+.content-name{
+  width: 25vh;
+    height: 8vh;
+    background-color: var(--pink-tua);
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: var(--semibold);
+    border: 1px solid black;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+}
+
+.menu-button{
+  width: 45vh;
+  height: 8vh;
+    background-color: var(--pink-tua);
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: var(--semibold);
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 0px black;
+    margin-top: 8vh;
+}
+
+.menu-button:hover{
+  box-shadow: none;
+  translate: 2px 2px;
+}
+
+.upper-ui {
+  display: flex;
+  align-items: center;
+  background-color: var(--pink-tua);
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.yae-profile {
+  text-align: center;
+  background-color: white;
+  width: 70%;
+}
+
+.yae-profile-img {
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 5%;
+}
